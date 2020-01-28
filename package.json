@@ -19,7 +19,7 @@
     "start": "react-scripts start",
     "build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files --ignore __tests__,spec.tsx,test.tsx,__snapshots__",
     "test": "react-scripts test",
-    "prepare": "npm run deploy",
+    "prepare": "npm run build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
